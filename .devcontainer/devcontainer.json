@@ -4,9 +4,7 @@
     "service": "vscode",
     "runServices": ["vscode"],
     "shutdownAction": "stopCompose",
-    "postCreateCommand": "yarn install",
     "workspaceFolder": "/workspace",
-    // "overrideCommand": "",
     "extensions": [
         // General frontend
         "bierner.color-info",
@@ -28,16 +26,13 @@
         "mhutchie.git-graph",
         // Other linters
         "davidanson.vscode-markdownlint",
-        "ms-azuretools.vscode-docker",
         // Other helpers
         "shardulm94.trailing-spaces",
         "Gruntfuggly.todo-tree",
         "bierner.emojisense",
         "stkb.rewrap", // rewrap comments after n characters on one line
         // Other
-        "jrebocho.vscode-random", // generate random values
         "alefragnani.Bookmarks",
-        "quicktype.quicktype", // Paste JSON as code
         "spikespaz.vscode-smoothtype", // smooth cursor animation
         "vscode-icons-team.vscode-icons",
         "github.vscode-pull-request-github"
