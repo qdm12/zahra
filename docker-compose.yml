@@ -1,9 +1,9 @@
 version: '3.7'
 services:
-  REPONAME_DOCKER:
+  zahra:
     build: .
-    image: qmcgaw/REPONAME_DOCKER
-    container_name: REPONAME_DOCKER
+    image: qmcgaw/zahra
+    container_name: zahra
     ports:
       - 8080:8080/tcp
     restart: always
