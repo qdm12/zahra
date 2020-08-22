@@ -10,6 +10,7 @@ import { Menu } from "logic/models";
 import ErrorSnackbar from "components/ErrorSnackbar";
 import Booking from "components/Booking";
 import GoogleMaps from "components/GoogleMaps";
+import MetaSEO from "components/MetaSEO";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -81,6 +82,7 @@ function App(): JSX.Element {
   return (
     <IntlProvider locale={language} messages={translations[language]} defaultLocale="ro">
       <div className={classes.root}>
+        <MetaSEO />
         <WelcomeScreen />
         <IconZahraGreen className={classes.icon} />
         <FoodMenu menu={menu} className={classes.menu} />
