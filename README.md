@@ -1,6 +1,6 @@
-# zahra
+# Zahra
 
-*SHORT_DESCRIPTION*
+*Zahra frontend in React+Typescript and Google scripts*
 
 <img height="200" src="title.svg?sanitize=true">
 
@@ -15,26 +15,21 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/zahra.svg)](https://github.com/qdm12/zahra/issues)
 [![GitHub issues](https://img.shields.io/github/issues/qdm12/zahra.svg)](https://github.com/qdm12/zahra/issues)
 
-## Features
-
-- Compatible with `amd64`, `386`, `arm64`, `arm32v7`, `arm32v6`, `ppc64le` and `s390x` CPU architectures.
-- [Docker image tags and sizes](https://hub.docker.com/r/qmcgaw/zahra/tags)
-
 ## Setup
 
 1. Use the following command:
 
     ```sh
-    docker run -d qmcgaw/zahra
+    docker run -d -p 8080:8080/tcp qmcgaw/zahra
     ```
 
-    You can also use [docker-compose.yml](https://github.com/qdm12/zahra/blob/master/docker-compose.yml) with:
+    Alternatively use [docker-compose.yml](https://github.com/qdm12/zahra/blob/master/docker-compose.yml) with:
 
     ```sh
     docker-compose up -d
     ```
 
-1. You can update the image with `docker pull qmcgaw/zahra:latest` or use one of [tags available](https://hub.docker.com/r//qmcgaw/zahra/tags)
+1. Update the image with `docker pull qmcgaw/zahra`
 
 ### Environment variables
 
@@ -83,8 +78,6 @@
 ## TODOs
 
 - [ ] Change public icons and logos
-- [ ] Write some dummy tests
-
-## License
-
-This repository is under an [MIT license](https://github.com/qdm12/zahra/master/license) unless otherwise indicated
+- [ ] Finish data.yml
+- [ ] Unit tests
+- [ ] Google script in Typescript
