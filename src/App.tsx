@@ -11,6 +11,7 @@ import ErrorSnackbar from "components/ErrorSnackbar";
 import Booking from "components/Booking";
 import GoogleMaps from "components/GoogleMaps";
 import MetaSEO from "components/MetaSEO";
+import JsonLD from "components/JsonLD";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -83,6 +84,7 @@ function App(): JSX.Element {
     <IntlProvider locale={language} messages={translations[language]} defaultLocale="ro">
       <div className={classes.root}>
         <MetaSEO />
+        <JsonLD />
         <WelcomeScreen />
         <IconZahraGreen className={classes.icon} />
         <FoodMenu menu={menu} className={classes.menu} />
