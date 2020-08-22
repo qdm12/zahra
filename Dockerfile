@@ -1,5 +1,5 @@
 ARG NODE_VERSION=14
-ARG GO_VERSION=1.14
+ARG GO_VERSION=1.15
 ARG ALPINE_VERSION=3.12
 
 FROM node:${NODE_VERSION}-alpine${ALPINE_VERSION} AS base
@@ -18,7 +18,7 @@ RUN yarn build
 FROM golang:${GO_VERSION}-alpine${ALPINE_VERSION} AS http-builder
 WORKDIR /tmp/http-server
 RUN printf "package main\n\nimport \"net/http\"\n\nfunc main() {\n	http.Handle(\"/\", http.FileServer(http.Dir(\"/srv\")))\n	http.ListenAndServe(\":8080\", nil)\n}" > main.go
-RUN CGO_ENABLED=0 go build -ldflags="-s -w" -o http-server
+RUN CGO_ENABLED=0 go build -trimpath -ldflags="-s -w" -o http-server
 
 FROM scratch
 ENTRYPOINT [ "/http-server" ]
