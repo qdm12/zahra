@@ -12,6 +12,7 @@ import Booking from "components/Booking";
 import GoogleMaps from "components/GoogleMaps";
 import MetaSEO from "components/MetaSEO";
 import JsonLD from "components/JsonLD";
+import MetaOwnership from "components/MetaOwnership";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -85,6 +86,7 @@ function App(): JSX.Element {
       <div className={classes.root}>
         <MetaSEO />
         <JsonLD />
+        <MetaOwnership />
         <WelcomeScreen />
         <IconZahraGreen className={classes.icon} />
         <FoodMenu menu={menu} className={classes.menu} />
