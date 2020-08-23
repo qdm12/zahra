@@ -7,7 +7,7 @@ import { fetchYML, parseYMLData } from "logic/yml";
 import { detectBrowserLanguage, getAllTranslations } from "logic/translations";
 import { IntlProvider } from "react-intl";
 import { Menu } from "logic/models";
-import ErrorSnackbar from "components/ErrorSnackbar";
+import Snackbar from "components/Snackbar";
 import Booking from "components/Booking";
 import GoogleMaps from "components/GoogleMaps";
 import MetaSEO from "components/MetaSEO";
@@ -90,7 +90,7 @@ function App(): JSX.Element {
         <FoodMenu menu={menu} className={classes.menu} />
         <Booking setError={setError} clearError={clearError} className={classes.booking} />
         <GoogleMaps className={classes.maps} />
-        <ErrorSnackbar open={showError} message={errorRef.current} onClose={clearError} />
+        <Snackbar open={showError} message={errorRef.current} onClose={clearError} />
       </div>
     </IntlProvider>
   );
