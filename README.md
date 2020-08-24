@@ -90,7 +90,12 @@
 
 ## TODOs
 
-- [ ] Change public icons and logos
 - [ ] Finish data.yml
+- [ ] Picture of restaurant at the top
+- [ ] Instagram, Facebook
+- [ ] JSON LD for menu items
+- [ ] Gallery
+- [ ] Review us buttons
 - [ ] Unit tests
-- [ ] Google script in Typescript
+- [ ] Menu pictures
+- [ ] Kiosk mode
