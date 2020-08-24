@@ -49,7 +49,9 @@ const rootURL = window.location.href;
 function App(): JSX.Element {
   const classes = useStyles();
   const errorRef = useRef("");
+  const successRef = useRef("");
   const [showError, setShowError] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
   // TODO initialize here as well
   const [translations, setTranslations] = useState<Record<string, Record<string, string>>>({});
   const [menu, setMenu] = useState<Menu>({ sections: [] });
@@ -62,6 +64,14 @@ function App(): JSX.Element {
   const clearError = (): void => {
     errorRef.current = "";
     setShowError(false);
+  };
+  const setSuccess = (s: string): void => {
+    successRef.current = s;
+    setShowSuccess(true);
+  };
+  const clearSuccess = (): void => {
+    successRef.current = "";
+    setShowSuccess(false);
   };
 
   useEffect(() => {
@@ -93,6 +103,7 @@ function App(): JSX.Element {
         <Booking setError={setError} clearError={clearError} className={classes.booking} />
         <GoogleMaps className={classes.maps} />
         <Snackbar severity="error" open={showError} message={errorRef.current} onClose={clearError} />
+        <Snackbar severity="success" open={showSuccess} message={successRef.current} onClose={clearSuccess} />
       </div>
     </IntlProvider>
   );
