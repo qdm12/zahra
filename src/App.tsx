@@ -92,7 +92,7 @@ function App(): JSX.Element {
         <FoodMenu menu={menu} className={classes.menu} />
         <Booking setError={setError} clearError={clearError} className={classes.booking} />
         <GoogleMaps className={classes.maps} />
-        <Snackbar open={showError} message={errorRef.current} onClose={clearError} />
+        <Snackbar severity="error" open={showError} message={errorRef.current} onClose={clearError} />
       </div>
     </IntlProvider>
   );
