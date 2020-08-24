@@ -75,6 +75,19 @@
 
 1. See [Contributing](.github/CONTRIBUTING.md) for more information on how to contribute to this repository.
 
+## Google App Script
+
+1. Go to the [Scripts homepage](https://script.google.com/home/my)
+1. Edit the [booking script](https://script.google.com/d/1ZcAiI87GHUOEFSNb47xTaPMfbPFxTcyiIS5hshPFt9On_3D7hylKKv7T/edit), and replace the content of *script.gs* by the content of [googleScript.js](googleScript.js)
+1. Select `Publish`, `Deploy as Web app` and select:
+    - Execute the app as: `Me`
+    - Who has access to the app: `Anyone, even anonymous`
+1. You can check:
+    - [Script executions summary](https://script.google.com/home/projects/1ZcAiI87GHUOEFSNb47xTaPMfbPFxTcyiIS5hshPFt9On_3D7hylKKv7T)
+    - [Logs](https://console.cloud.google.com/logs/viewer?project=project-id-4217464954757915625)
+    - [Mail box](https://mail.google.com/) for culinartrestaurant@gmail.com
+    - [Spreadsheet](https://docs.google.com/spreadsheets/d/1V0cjNexIPfT-YqbYUsUtx-fDWoOWx3PmMcJh_QRtIx4)
+
 ## TODOs
 
 - [ ] Change public icons and logos
