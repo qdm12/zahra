@@ -42,6 +42,7 @@ function GoogleMaps(props: Props): JSX.Element {
     <div className={clsx(classes.root, props.className)}>
       <div className={classes.title}>Location</div>
       <iframe
+        title="maps"
         className={classes.map}
         id="googlemaps"
         frameBorder="0"
