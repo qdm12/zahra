@@ -39,6 +39,9 @@ const staticTranslations: Record<string, Record<string, string>> = {
     AdditionalInformation: "Additional information",
     Submit: "Submit",
     Booking: "Booking",
+    Location: "Location",
+    bookingSuccess: "Booking submitted",
+    bookingFailed: "Booking failed, please call us instead",
   },
   ro: {
     Date: "Data",
@@ -50,5 +53,8 @@ const staticTranslations: Record<string, Record<string, string>> = {
     AdditionalInformation: "Informatii aditionale",
     Submit: "Trimite",
     Booking: "Rezervare",
+    Location: "Locatie",
+    bookingSuccess: "Rezervarea a fost trimisă",
+    bookingFailed: "Rezervarea nu a reușit, sună-ne în schimb",
   },
 };

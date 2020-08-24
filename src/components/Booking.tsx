@@ -1,7 +1,7 @@
 import React, { FormEvent, useState, ChangeEvent } from "react";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, useIntl } from "react-intl";
 import submitToGoogle from "logic/booking";
 
 const useStyles = makeStyles((theme) => ({
@@ -71,14 +71,17 @@ function isEmailValid(email: string): boolean {
 } // TODO validate email with that
 
 interface Props {
+  className?: string;
   setError: (s: string) => void;
   clearError: () => void;
-  className?: string;
+  setSuccess: (translationID: string) => void;
+  language: string;
 }
 
 function Booking(props: Props): JSX.Element {
   const today = new Date();
   const classes = useStyles();
+  const { formatMessage } = useIntl();
   const [date, setDate] = useState<Date>(today);
   const [time, setTime] = useState<string>("19:00:00");
   const [numberOfGuests, setNumberOfGuests] = useState<number>(2);
@@ -99,18 +102,20 @@ function Booking(props: Props): JSX.Element {
   const handleSubmit = async (event: FormEvent): Promise<void> => {
     event.preventDefault();
     try {
-      console.log("submitting booking...");
-      await submitToGoogle(date, time, numberOfGuests, name, email, phone, additionalInformation);
-      props.clearError();
+      await submitToGoogle(date, time, numberOfGuests, name, email, phone, additionalInformation, props.language);
       // TODO clear form values on success
     } catch (e) {
+      let errorStr: any = e;
       if (e instanceof Error) {
-        props.setError(e.toString());
-      } else {
-        props.setError(e);
+        errorStr = e.toString().replace("Error: ", "");
       }
+      const message = `${formatMessage({ id: "bookingFailed" })}. (${errorStr})`;
+      props.setError(message);
+      return;
     }
-    console.log("booking submitted successfully");
+    props.clearError();
+    const message = formatMessage({ id: "bookingSuccess" });
+    props.setSuccess(message);
   };
 
   return (

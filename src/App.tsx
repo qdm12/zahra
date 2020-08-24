@@ -100,7 +100,13 @@ function App(): JSX.Element {
         <WelcomeScreen />
         <IconZahraGreen className={classes.icon} />
         <FoodMenu menu={menu} className={classes.menu} />
-        <Booking setError={setError} clearError={clearError} className={classes.booking} />
+        <Booking
+          className={classes.booking}
+          setError={setError}
+          clearError={clearError}
+          setSuccess={setSuccess}
+          language={language}
+        />
         <GoogleMaps className={classes.maps} />
         <Snackbar severity="error" open={showError} message={errorRef.current} onClose={clearError} />
         <Snackbar severity="success" open={showSuccess} message={successRef.current} onClose={clearSuccess} />
