@@ -298,15 +298,279 @@ menu:
               price: 17
               quantity: 290ml
     - name:
-        romanian: TOFILL
-        english: TOFILL
+        romanian: Paste
+        english: Pasta
       subsections:
         - dishes:
             - name:
-                romanian: TOFILL
-                english: TOFILL
-              price: 22
-              quantity: 280g
+                romanian: Tagliatelle cu rossi cherry, dovlecei si busuioc
+                english: Cherry tomato, zucchini and basil tagilatelle
+              price: 27
+              quantity: 270g
+            - name:
+                romanian: Tagliatelle cu patru tipuri de branza
+                english: Tagliatelle Quattro formaggi
+              price: 34
+              quantity: 270g
+            - name:
+                romanian: Tagliatelle carbonara cu piept de pui afumat
+                english: Smoked chicken breast tagliatelle carbonara
+              price: 31
+              quantity: 270g
+    - name:
+        romanian: Peste si fructe de mare
+        english: Fish and seafood
+      subsections:
+        - dishes:
+            - name:
+                romanian: Dorada sau biban de mare
+                english: Daurade royale or Sea bass
+              price: 45
+              quantity: 300g
+            - name:
+                romanian: File de somon la gratar
+                english: Grilled salmon fillet
+              price: 45
+              quantity: 250g
+            - name:
+                romanian: Creveti
+                english: Shrimps
+              description:
+                romanian: creveti marinati in sos dulce-acrisor, cartofi steakhouse
+                english: grilled sweet-and-sour-sauce-marinated shrimps, steakhouse potatoes
+              price: 45
+              quantity: 350g
+    - name:
+        romanian: Burger
+        english: Burger
+      subsections:
+        - dishes:
+            - name:
+                romanian: Burger by CulinArt
+                english: Burger by CulinArt
+              description:
+                romanian: carne de vita Black Angus, chifla brioche, cartofi steakhouse, sos tartar, salata
+                english: Black Angus beef, brioche bun, steakhouse potatoes, tartar sauce, salad
+              price: 39
+              quantity: 470g
+            - name:
+                romanian: Blue cheese burger by CulinArt
+                english: Blue cheese burger by CulinArt
+              description:
+                romanian: branza cu mucegai, chifla brioche, cartofi steakhouse, sos tartar, salata
+                english: blue cheese, brioche bun, steakhouse potatoes, tartar sauce, salad
+              price: 42
+              quantity: 480g
+            - name:
+                romanian: Burger vegetarian
+                english: Vegetarian burger
+              description:
+                romanian: falafel, ciuperci, chifla brioche, cartofi steakhouse, sos tartar, salata
+                english: falafel, mushrooms, brioche bun, steakhouse potatoes, tartar sauce, salad
+              price: 24
+              quantity: 350g
+    - name:
+        romanian: Gratar
+        english: Grill
+      subsections:
+        - dishes:
+            - name:
+                romanian: Piept de pui la gratar
+                english: Grilled chicken breast
+              price: 27
+              quantity: 220g
+            - name:
+                romanian: Muschi de vita la gratar
+                english: Grilled beef fillet
+              price: 80
+              quantity: 245g
+        - name:
+            romanian: Specialitati arabesti
+            english: Arab specialties
+          dishes:
+            - name:
+                romanian: Piept de pui la gratar
+                english: Grilled chicken breast
+              price: 27
+              quantity: 220g
+            - name:
+                romanian: Muschi de vita la gratar
+                english: Grilled beef fillet
+              price: 80
+              quantity: 245g
+            - name:
+                romanian: Kebab
+                english: Kebab
+              price: 36
+              quantity: 250g
+            - name:
+                romanian: Kafta
+                english: Kafta
+              description:
+                romanian: frigarui din carne tocata de berbec si vita, ceapa, patrunjel, condimente
+                english: ram and beef meatball skewers, onion, parsley, spices
+              price: 38
+              quantity: 200g
+            - name:
+                romanian: Shish taouk
+                english: Shish taouk
+              description:
+                romanian: piept de pui, iaurt, condimente, suc de lamaie
+                english: chicken breast, yogurt, spices, lemon juice
+              price: 34
+              quantity: 200g
+            - name:
+                romanian: Shish kebab
+                english: Shish kebab
+              description:
+                romanian: carne de vita sau de oaie, condimente, suc de lamaie
+                english: beef or mutton, spices, lemon juice
+              price: 42
+              quantity: 200g
+            - name:
+                romanian: Shawarma de pui
+                english: Chicken shawarma
+              description:
+                romanian: piept de pui, cartofi prajiti, castraveti murati, pasta de usturoi
+                english: chicken breast, fries, pickled cucumbers, garlic paste
+              price: 27
+              quantity: 350g
+            - name:
+                romanian: Shawarma de vita
+                english: Beef shawarma
+              description:
+                romanian: carne de vita, ceapa, ardei gras, cartofi prajiti, castraveti murati, pasta de susan
+                english: beef, onion, bell pepper, fries, pickled cucumbers, sesame paste
+              price: 34
+              quantity: 350g
+            - name:
+                romanian: Mix grill
+                english: Mixed grill
+              description:
+                romanian: kebab, frigaruie de vita, frigaruie de pui
+                english: kebab, beef skewer, chicken skewer
+              price: 48
+              quantity: 400g
+            - name:
+                romanian: Cotlete de berbecut
+                english: Ram chops
+              price: 42
+              quantity: 300g
+    - name:
+        romanian: Fel principal
+        english: Main
+      subsections:
+        - dishes:
+            - name:
+                romanian: Snitzel din piept de pui cu cartofi steakhouse
+                english: Chicken breast schnitzel with steakhouse potatoes
+              price: 33
+              quantity: 360g
+            - name:
+                romanian: Pui Shanghai cu cartofi prajiti si sos dulce-acrisor
+                english: Shanghai chicken with French fries and sweet-and-sour sauce
+              price: 32
+              quantity: 350g
+        - name:
+            romanian: Specialitati arabesti
+            english: Arab specialties
+          dishes:
+            - name:
+                romanian: Maklubi de pui
+                english: Chicken maklouba
+              description:
+                romanian: orez, vinete, pui, ulei de masline, condimente, migdale/caju/alune
+                english: rice, eggplant, chicken, olive oil, spices, almonds/cashew/hazelnuts
+              price: 38
+              quantity: 300g
+            - name:
+                romanian: Maklubi de vita
+                english: Beef maklouba
+              description:
+                romanian: orez, vinete, carne de vita, suc de lamaie, ulei de masline, condimente, migdale/caju/alune
+                english: rice, eggplant, beef, lemon juice, olive oil, spices, almonds/cashew/hazelnuts
+              price: 44
+              quantity: 300g
+            - name:
+                romanian: Mandi de pui
+                english: Chicken mandi
+              description:
+                romanian: pui, orez, condimente, sos picant
+                english: chicken, rice, spices, spicy sauce
+              price: 34
+              quantity: 250g
+            - name:
+                romanian: Mandi de vita
+                english: Beef mandi
+              description:
+                romanian: orez, carne de vita, condimente, sos picant
+                english: rice, beef, spices, spicy sauce
+              price:
+              quantity: 250g
+            - name:
+                romanian: Samke harra
+                english: Samke harra
+              description:
+                romanian: peste (dorada/biban/somon) condimentat, sos picant cu nuci, coriandru, usturoi
+                english: spicy fish (daurade/perch/salmon), spicy sauce with walnut, coriander, garlic
+              price: 42
+              quantity: 250g
+    - name:
+        romanian: Sosuri
+        english: Sauces
+      subsections:
+        - dishes:
+            - name:
+                romanian: Reci
+                english: Cold
+              description:
+                romanian: Tartar/Maioneza/Tahini/Pasta de ardei iute/Pasta de usturoi/Sos de soia/ Sos de chilli dulce
+                english: Tartar/Mayonnaise/Hot chilli paste/Garlic paste/Soy sauce/Sweet chilli sauce
+              price: 8
+              quantity: 70g
+            - name:
+                romanian: Calde
+                english: Warm
+              description:
+                romanian: Sos de piper verde/Sos olandez/Sos brun
+                english: Green pepper sauce/Hollandaise/Brown sauce
+              price: 8
+              quantity: 70g
+    - name:
+        romanian: Garnituri
+        english: Sides
+      subsections:
+        - dishes:
+            - name:
+                romanian: Cartofi steakhouse
+                english: Steakhouse potatoes
+              price: 9
+              quantity: 200g
+            - name:
+                romanian: Cartofi cheesy - cartofi pai cu parmezan, usturoi si patrunjel
+                english: Cheesy fries - French fries with parmesan, garlic and fresh parsley
+              price: 12
+              quantity: 220g
+            - name:
+                romanian: Piure de cartofi
+                english: Creamy mashed potatoes
+              price: 10
+              quantity: 200g
+            - name:
+                romanian: Orez cu curry
+                english: Curry rice
+              price: 11
+              quantity: 200g
+            - name:
+                romanian: Orez libanez
+                english: Lebanese rice
+              price: 12
+              quantity: 200g
+    - name:
+        romanian: Desert
+        english: Dessert
+      subsections:
+        - dishes:
             - name:
                 romanian: Cupa de inghetata
                 english: Ice cream scoop
