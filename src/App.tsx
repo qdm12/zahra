@@ -13,6 +13,7 @@ import GoogleMaps from "components/GoogleMaps";
 import MetaSEO from "components/MetaSEO";
 import JsonLD from "components/JsonLD";
 import MetaOwnership from "components/MetaOwnership";
+import PixelBaseCode from "components/PixelBaseCode";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -97,6 +98,7 @@ function App(): JSX.Element {
         <MetaSEO />
         <JsonLD />
         <MetaOwnership />
+        <PixelBaseCode />
         <WelcomeScreen />
         <IconZahraGreen className={classes.icon} />
         <FoodMenu menu={menu} className={classes.menu} />
