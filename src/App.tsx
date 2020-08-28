@@ -9,11 +9,11 @@ import { IntlProvider } from "react-intl";
 import { Menu } from "logic/models";
 import Snackbar from "components/Snackbar";
 import Booking from "components/Booking";
-import GoogleMaps from "components/GoogleMaps";
 import MetaSEO from "components/MetaSEO";
 import JsonLD from "components/JsonLD";
 import MetaOwnership from "components/MetaOwnership";
 import PixelBaseCode from "components/PixelBaseCode";
+import ContactUs from "components/ContactUs";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,9 +37,6 @@ const useStyles = makeStyles((theme) => ({
   },
   menu: {},
   booking: {
-    marginTop: theme.spacing(5),
-  },
-  maps: {
     marginTop: theme.spacing(5),
   },
 }));
@@ -109,7 +106,7 @@ function App(): JSX.Element {
           setSuccess={setSuccess}
           language={language}
         />
-        <GoogleMaps className={classes.maps} />
+        <ContactUs />
         <Snackbar severity="error" open={showError} message={errorRef.current} onClose={clearError} />
         <Snackbar severity="success" open={showSuccess} message={successRef.current} onClose={clearSuccess} />
       </div>
