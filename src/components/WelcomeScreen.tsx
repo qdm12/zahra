@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import IconWelcome from "components/IconWelcome";
+import colors from "colors";
 
 const showMs = 500;
 const fadeOutMs = 1400;
@@ -10,9 +11,10 @@ const useStyles = makeStyles({
     position: "fixed",
     width: "100%",
     height: "100%",
+    color: colors.welcomeText,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#778a70",
+    backgroundColor: colors.welcomeBackground,
     transition: `all ${fadeOutMs}ms ease`,
     opacity: (props: styleProps) => (props.fadeOut ? 0 : 1),
     display: (props: styleProps) => (props.show ? "flex" : "none"),

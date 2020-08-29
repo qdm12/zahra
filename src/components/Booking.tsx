@@ -3,11 +3,13 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import { FormattedMessage, useIntl } from "react-intl";
 import submitToGoogle from "logic/booking";
+import colors from "colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     flexDirection: "column",
+    color: colors.bookingText,
     padding: theme.spacing(0, 10),
     [theme.breakpoints.down("md")]: {
       padding: theme.spacing(0, 2),
@@ -33,14 +35,17 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 15,
     fontWeight: "bold",
     borderRadius: 3,
-    border: "1px solid green",
+    border: "3px solid",
+    borderColor: colors.inputBorder,
     outline: "none",
-    transition: "all 1s ease",
+    backgroundColor: colors.inputBackground,
+    color: colors.inputText,
+    transition: "all 0.5s ease",
     "&:hover": {
-      borderColor: "aqua",
+      borderColor: colors.inputBorderHover,
     },
     "&:focus": {
-      borderColor: "aqua",
+      borderColor: colors.inputBorderHover,
     },
   },
   inputTime: {
@@ -58,10 +63,11 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 15,
     fontWeight: "bold",
     padding: theme.spacing(1),
-    color: "white",
-    backgroundColor: "green",
+    color: colors.buttonText,
+    backgroundColor: colors.buttonBackground,
     borderRadius: 5,
-    border: "2px solid green",
+    border: "2px solid",
+    borderColor: colors.buttonBorder,
   },
 }));
 

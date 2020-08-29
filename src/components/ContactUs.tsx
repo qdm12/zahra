@@ -2,9 +2,11 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { FormattedMessage } from "react-intl";
 import GoogleMaps from "./GoogleMaps";
+import colors from "colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    color: colors.contactText,
     marginTop: theme.spacing(4),
     padding: theme.spacing(0, 10),
     [theme.breakpoints.down("md")]: {
@@ -22,11 +24,11 @@ const useStyles = makeStyles((theme) => ({
   phone: {
     fontSize: 25,
     textDecoration: "none",
-    color: "black",
+    color: colors.contactText,
     opacity: 0.7,
     transition: "1s ease all",
     "&:hover": {
-      color: "gray",
+      color: colors.hrefHover,
       opacity: 1,
     },
   },

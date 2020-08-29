@@ -3,19 +3,17 @@ import { makeStyles } from "@material-ui/core/styles";
 import { MenuSection } from "logic/models";
 import { FormattedMessage } from "react-intl";
 import FoodMenuSubsection from "./FoodMenuSubsection";
+import colors from "colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     borderRadius: 3,
     borderWidth: 2,
     borderStyle: "solid",
-    borderColor: "rgba(255,255,255,0.4)",
+    borderColor: colors.menuText,
     margin: theme.spacing(3, 0),
     padding: theme.spacing(1, 2),
     transition: "all 1s ease",
-    "&:hover": {
-      borderColor: "rgba(255,255,255,0.8)",
-    },
   },
   name: {
     fontSize: 32,

@@ -3,12 +3,13 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Menu } from "logic/models";
 import FoodMenuSection from "./FoodMenuSection";
 import clsx from "clsx";
+import colors from "colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: theme.spacing(0, 10),
-    backgroundColor: "#6b826e",
-    color: "white",
+    backgroundColor: colors.menuBackground,
+    color: colors.menuText,
     padding: theme.spacing(1, 4),
     borderRadius: 5,
     [theme.breakpoints.down("md")]: {

@@ -14,12 +14,13 @@ import JsonLD from "components/JsonLD";
 import MetaOwnership from "components/MetaOwnership";
 import PixelBaseCode from "components/PixelBaseCode";
 import ContactUs from "components/ContactUs";
+import colors from "colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
     minHeight: "100vh",
-    backgroundColor: "#adb5aa",
+    backgroundColor: colors.background,
     paddingBottom: theme.spacing(3),
   },
   icon: {
