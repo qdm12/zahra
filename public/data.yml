@@ -165,8 +165,8 @@ menu:
               price: 26
               quantity: 200g
     - name:
-        romanian: Specialitati arabesti
-        english: Arab specialties
+        romanian: Aperitive calde - Specialitati arabesti
+        english: Hot starters - Arab specialties
       subsections:
         - dishes:
             - name:
