@@ -15,6 +15,7 @@ import MetaOwnership from "components/MetaOwnership";
 import PixelBaseCode from "components/PixelBaseCode";
 import ContactUs from "components/ContactUs";
 import colors from "colors";
+import GA from "components/GA";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -96,6 +97,7 @@ function App(): JSX.Element {
         <MetaSEO />
         <JsonLD />
         <MetaOwnership />
+        <GA />
         <PixelBaseCode />
         <WelcomeScreen />
         <IconZahraGreen className={classes.icon} />
