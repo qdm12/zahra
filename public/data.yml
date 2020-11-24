@@ -6,40 +6,21 @@ menu:
       subsections:
         - dishes:
             - name:
-                romanian: Omleta cu camembert & Jambon de curcan
-                english: Omelet with camembert & turkey jamon
+                romanian: Omleta cu camembert & Jambon de pui
+                english: Omelet with Camembert & chicken jamon
               description:
-                romanian: ou, branza camembert, jambon de curcan, mix de salata verde, cartofi prajiti
-                english: egg, Camembert cheese, turkey jamon, mixed green leaf salad, French fries
-              price: 22
-              quantity: 280g
+                romanian: ou, branza camembert, jambon de pui, mix de salata verde, cartofi prajiti
+                english: egg, Camembert cheese, chicken jamon, mixed green leaf salad, French fries
+              price: 34
+              quantity: 300g
             - name:
-                romanian: Omleta cu hirbi
-                english: Wild mushroom omelet
+                romanian: Omleta cu ciuperci
+                english: Mushroom omelet
               description:
-                romanian: Omleta cu spanac baby si muguri de pin
-                english: Baby spinach and pine nuts omelet
-              price: 23
-              quantity: 280g
-        - name:
-            romanian: Specialitati arabesti
-            english: Arab specialties
-          dishes:
-            - name:
-                romanian: Falafel, 6 buc.
-                english: Falafel, 6 pcs.
-              description:
-                romanian: chiftelute vegetariene de naut cu pasta de susan
-                english: chickpea balls with tahini sesame pate
-              price: 21
-              quantity: 200g
-            - name:
-                romanian: Labneh
-              description:
-                romanian: crema de iaurt, ulei de masline
-                english: yogurt cream, olive oil
-              price: 19
-              quantity: 150g
+                romanian: ou, ciuperci, jambon de pui, mix de salata verde, cartofi prajiti
+                english: egg, mushroom, chicken jamon, mixed green leaf salad, French fries
+              price: 31
+              quantity: 300g
             - name:
                 romanian: Shakshuka
                 english: Shakshouka
@@ -49,80 +30,50 @@ menu:
               price: 18
               quantity: 250g
             - name:
-                romanian: Sandwich
+                romanian: Oua ochi cu cartofi prajiti
+                english: Sunny-side ups with French fries
               description:
-                romanian: Falafel (vegetarian)/Kebab/Shawarma
-                english: Falafel (vegetarian)/Kebab/Shawarma
-              price: 27
-              quantity: 250g
+                romanian: ou, cartofi prajiti, branza rasa, castraveciori murati
+                english: egg, French fries, shredded cheese, pickled cucumbers
+              price: 29
+              quantity: 300g
     - name:
         romanian: Aperitive reci
         english: Cold starters
       subsections:
         - dishes:
             - name:
-                romanian: Bruschete cu rosii si busuioc, 5 buc.
-                english: Tomato and basil bruschetti, 5 pcs.
+                romanian: Bruschete cu rosii si busuioc
+                english: Tomato and basil bruschetti
               price: 25
               quantity: 250g
             - name:
-                romanian: Bruschete cu somon/ansoa, 5 buc.
-                english: Salomn/Anchovies bruschetti, 5 pcs.
+                romanian: Salata Cezar cu creveti
+                english: Shrimp Caesar salad
+              description:
+                romanian: creveti, salata iceber, rosii cherry, crutoane, dressing Cezar
+                english: shrimps, iceberg salad, cherry tomatoes, croutons, Caesar dressing
+              price: 45
+              quantity: 350g
+            - name:
+                romanian: Salata greceasca
+                english: Greek salad
+              description:
+                romanian: rosii, castraveti, ceapa, branza, masline, ulei de masline
+                english: tomatoes, cucumbers, onion, cheese, olives, olive oil
               price: 27
               quantity: 250g
-            - name:
-                romanian: Salata Cezar cu curcan
-                english: Caesar salad with turkey
-              description:
-                romanian: curcan marinat cu lamaie, lime si usturoi, salata iceber, rosii cherry, crutoane, dressing Cezar
-                english: lemon, lime and garlic marinated turkey, iceberg salad, cherry tomatoes, croutons, Caesar dressing
-              price: 36
-              quantity: 350g
-            - name:
-                romanian: Salata Cezar cu creveti marinati in sos dulce-acrisor
-                english: Caesar salad with sweet-and-sour-sauce-marinated shrimps
-              price: 37
-              quantity: 350g
-            - name:
-                romanian: Salata cu spanac baby, branza de capra si capsune
-                english: Baby spinach, goat cheese and strawberry salad
-              price: 33
-              quantity: 350g
         - name:
-            romanian: Specialitati arabesti
-            english: Arab specialties
+            romanian: Specialitati orientale
+            english: Middle Eastern specialties
           dishes:
-            - name:
-                romanian: Humus
-                english: Hummus
-              description:
-                romanian: pasta de naut, tahini, lamaie, ulei de masline
-                english: chickpea paste, tahini, lemon, olive oil
-              price: 22
-              quantity: 200g
-            - name:
-                romanian: Moutabal
-                english: Moutabal
-              description:
-                romanian: salata de vinete, tahini, ulei de masline
-                english: eggplant salad, tahini, olive oil
-              price: 19
-              quantity: 150g
-            - name:
-                romanian: Baba Ghanoush
-                english: Baba Ghanoush
-              description:
-                romanian: salata de vinete, ardei gras, patrunjel, lamaie, sos de rodii, ceapa
-                english: eggplant salad, bell pepper, parsley, lemon, pomegranate sauce, onion
-              price: 24
-              quantity: 200g
             - name:
                 romanian: Tabbouleh
                 english: Tabbouleh
               description:
                 romanian: salata de patrunjel fin tocat, rosii, grau fin pisat, lamaie, ulei de masline
                 english: finely chopped parsley salad, tomato, bulgur, lemon, olive oil
-              price: 19
+              price: 25
               quantity: 250g
             - name:
                 romanian: Fattoush
@@ -130,14 +81,62 @@ menu:
               description:
                 romanian: rosii, castraveti, salata verde, ridichie, ceapa, ardei gras, lamaie, ulei de masline, menta, valeriana, patrunjel, pita toast
                 english: tomato, cucumber, lettuce, onion, bell pepper, lemon, olive oil, mint, valerian, parsley, khubz pita chips
-              price: 22
+              price: 27
               quantity: 300g
             - name:
-                romanian: Salata arabeasca
-                english: Arabesque salad
+                romanian: Salata libaneza
+                english: Lebanese salad
               description:
-                romanian: rosii, castraveti, salata verde, ceapa, ardei gras, patrunjel, lamaie, menta, ulei de masline
-                english: tomato, cucumber, green salad, onion, bell pepper, parsley, lemon, mint, olive oil
+                romanian: rosii, castraveti, salata verde, lamaie, usturoi, ulei de masline
+                english: tomato, cucumber, green salad, lemon, garlic, olive oil
+              price: 26
+              quantity: 250g
+            - name:
+                romanian: Makdous
+                english: Makdous
+              description:
+                romanian: vinete umplute cu ardei, nuca, usturoi, ulei de masline
+                english: aubergines filled with bell peppet, walnut, garlic, olive oil
+              price: 25
+              quantity: 150g
+            - name:
+                romanian: Humus
+                english: Hummus
+              description:
+                romanian: pasta de naut, tahini, lamaie, ulei de masline
+                english: chickpea paste, tahini, lemon, olive oil
+              price: 24
+              quantity: 200g
+            - name:
+                romanian: Humus cu muguri de pin
+                english: Hummus with pine nuts
+              description:
+                romanian: naut, tahini, lamaie, muguri de pin, ulei de masline
+                english: chickpea, tahini, lemon, pine nuts, olive oil
+              price: 27
+              quantity: 210g
+            - name:
+                romanian: Humus cu carne de vita
+                english: Hummus with beef
+              description:
+                romanian: naut, tahini, muschi de vita, lamaie, ulei de masline
+                english: chickpea, beef tenderloin, lemon, olive oil
+              price: 29
+              quantity: 230g
+            - name:
+                romanian: Humus cu trufe
+                english: Hummus with truffles
+              description:
+                romanian: naut, tahini, trufe, lamaie, ulei de masline
+                english: chickpea, tahini, truffles, lemon, olive oil
+              price: 35
+              quantity: 200g
+            - name:
+                romanian: Humus cu busuioc
+                english: Hummus with basil
+              description:
+                romanian: naut, tahini, lamaie, busuioc, ulei de masline
+                english: chickpea, tahini, lemon, basil, olive oil
               price: 24
               quantity: 200g
             - name:
@@ -146,83 +145,137 @@ menu:
               description:
                 romanian: nuca, pasta de ardei iute, crutoane pisate, ulei de masline, sos de rodii
                 english: walnut, hot pepper paste, ground croutons, olive oil, pomegranate sauce
-              price: 23
-              quantity: 200g
-            - name:
-                romanian: Platou mix de salate
-                english: Mixed dips
-              description:
-                romanian: humus, moutabal, tabbouleh, labneh
-                english: hummus, moutabal, tabbouleh, labneh
-              price: 36
-              quantity: 450g
-            - name:
-                romanian: Sumbar
-                english: Sumbar
-              description:
-                romanian: Humus cu muguri de pin
-                english: Hummus with pine nuts
               price: 26
               quantity: 200g
+            - name:
+                romanian: Moutabal
+                english: Moutabal
+              description:
+                romanian: salata de vinete, tahini, ulei de masline
+                english: eggplant salad, tahini, olive oil
+              price: 25
+              quantity: 200g
+            - name:
+                romanian: Baba Ghanoush
+                english: Baba Ghanoush
+              description:
+                romanian: salata de vinete, ardei gras, patrunjel, lamaie, sos de rodii, ceapa
+                english: eggplant salad, bell pepper, parsley, lemon, pomegranate sauce, onion
+              price: 26
+              quantity: 200g
+            - name:
+                romanian: Labneh
+                english: Labneh
+              description:
+                romanian: crema de iaurt
+                english: strained yoghurt soft cheese paste
+              price: 19
+              quantity: 150g
+            - name:
+                romanian: Labneh din crema de capra cu menta
+                english: Goat milk labneh with mint
+              description:
+                romanian: crema de iaurt din lapte de capra cu menta
+                english: strained goat milk yoghurt soft cheese paste with mint
+              price: 25
+              quantity: 200g
+            - name:
+                romanian: Basturma
+                english: Basturma
+              description:
+                romanian: pastrama de vita, condimente
+                english: beef pastrami, spices
+              price: 32
+              quantity: 100g
     - name:
-        romanian: Aperitive calde - Specialitati arabesti
-        english: Hot starters - Arab specialties
+        romanian: Aperitive calde - Specialitati orientale
+        english: Hot starters - Middle Eastern specialties
       subsections:
         - dishes:
             - name:
-                romanian: Sambusek cu branza, 4 buc.
-                english: Cheese sambousek, 4 pcs.
+                romanian: Falafel, 5 buc.
+                english: Falafel, 5 pcs.
               description:
-                romanian: aluat umplut cu branza, ceapa, patrunjel
-                english: small pies with cheese, onion, parsley
-              price: 20
-              quantity: 200g
+                romanian: chiftelute vegetariene din naut cu tahini - pasta de susan
+                english: chickpea balls with tahini - sesame paste
+              price: 25
             - name:
-                romanian: Sambusek cu carne, 4 buc.
-                english: Meat sambousek, 4 pcs.
+                romanian: Sambusek cu carne, 1 buc.
+                english: Meat sambousek, 1 pc.
               description:
                 romanian: aluat umplut cu carne, ceapa, muguri de pin
                 english: small pies with meat, onion, pine nuts
-              price: 24
-              quantity: 200g
+              price: 5
             - name:
-                romanian: Sambusek cu spanac, 4 buc.
-                english: Spinach sambousek, 4 pcs.
+                romanian: Sambusek cu branza, 1 buc.
+                english: Cheese sambousek, 1 pc.
               description:
-                romanian: aluat umplut cu spanac, ceapa, patrunjel
-                english: small pies with spinach, onion, parsley
-              price: 21
-              quantity: 200g
+                romanian: aluat umplut cu branza, ceapa, patrunjel
+                english: small pies with cheese, onion, parsley
+              price: 5
             - name:
-                romanian: Sambusek cu legume, 4 buc.
-                english: Vegetable sambousek, 4 pcs.
+                romanian: Halloumi
+                english: Halloumi
               description:
-                romanian: aluat umplut cu ardei, ceapa, morcov, patrunjel, curry, ulei de masline
-                english: small pies with bell pepper, onion, carrot, parsley, curry, olive oil
-              price: 21
-              quantity: 200g
-            - name:
-                romanian: Sujuk
-              description:
-                romanian: carnaciori picanti de berbec, rosii, usturoi
-                english: dry spicy ram saussage, tomato, garlic
-              price: 27
-              quantity: 200g
+                romanian: branza libaneza la gratar
+                english: grilled Lebanese cheese
+              price: 32
+              quantity: 150g
             - name:
                 romanian: Ras Asfour de vita
                 english: Beef Ras Asfour
               description:
                 romanian: cubulete de vita, felii de ceapa, ardei gras, ulei de masline, sos de rodii
                 english: small fried beef cubes, onion, olive oil, pomegranate sauce
-              price: 31
-              quantity: 200g
+              price: 41
+              quantity: 150g
             - name:
                 romanian: Ras Asfour de pui
                 english: Chicken Ras Asfour
               description:
                 romanian: cubulete din piept de pui, felii de ceapa, ardei gras, ulei de masline, sos de rodii
                 english: small fried chicken breast cubes, onion, bell pepper, olive oil, pomegranate sauce
-              price: 25
+              price: 33
+              quantity: 150g
+            - name:
+                romanian: Pastrama de oaie
+                english: Mutton pastrami
+              description:
+                romanian: pastrama de oaie preparata in casa
+                english: homemade mutton pastrami
+              price: 34
+              quantity: 200g
+            - name:
+                romanian: Sharhat de pui
+                english: Chicken sharhat
+              description:
+                romanian: felii de pui cu usturoi, cimbru, lamaie
+                english: chicken strips, garlic, thyme, lemon
+              price: 31
+              quantity: 150g
+            - name:
+                romanian: Sharhat de vita
+                english: Beef sharhat
+              description:
+                romanian: felii de vita cu usturoi, cimbru, lamaie
+                english: beef strips, garlic, thyme, lemon
+              price: 39
+              quantity: 150g
+            - name:
+                romanian: Crochete de pui
+                english: Chicken nuggets
+              description:
+                romanian: crochete de pui pane cu sos de lamaie si unt
+                english: pan-fried chicken nuggets with lemon and butter sauce
+              price: 29
+              quantity: 150g
+            - name:
+                romanian: Ficatei de pui
+                english: Chicken livers
+              description:
+                romanian: ficatei de pui, suc de lamaie, usturoi
+                english: chicken livers, lemon juice, garlic
+              price: 30
               quantity: 200g
             - name:
                 romanian: Batata Harra - cartofi iuti
@@ -230,44 +283,16 @@ menu:
               description:
                 romanian: cubulete de cartofi, coriandru, usturoi, pasta de ardei iute
                 english: potatoes, corriander, garlic, hot pepper paste
-              price: 15
+              price: 19
               quantity: 200g
             - name:
-                romanian: Halloumi
-                english: Halloumi
+                romanian: Masline pane
+                english: Deep-fried panko olives
               description:
-                romanian: branza libaneza la gratar
-                english: grilled Lebanese cheese
-              price: 22
-              quantity: 200g
-            - name:
-                romanian: Humus cu carne de vita
-                english: Hummus with beef
-              description:
-                romanian: pasta de naut, tahini, lamaie, carne de vita
-                english: mashed chickpeas, tahini, lemon, beef
-              price: 24
-              quantity: 250g
-            - name:
-                romanian: Ficatei de pui
-                english: Chicken livers
-              description:
-                romanian: ficatei de pui, suc de lamaie, usturoi
-                english: chicken livers, lemon juice, garlic
-              price: 27
-              quantity: 250g
-            - name:
-                romanian: Aripioare de pui
-                english: Chicken wings
-              description:
-                romanian: aripioare de pui, ulei de masline
-                english: chicken wings, olive oil
-              price: 24
-              quantity: 300g
-            - name:
-                romanian: Lipie/Paine de casa/Chifle
-                english: Pita bread/ Homemade bread/Buns
-              price: 2
+                romanian: masline verzi, oua, pesmet
+                english: green olives, egg, panko
+              price: 28
+              quantity: 150g
     - name:
         romanian: Supe
         english: Soups
@@ -279,42 +304,42 @@ menu:
               description:
                 romanian: rosii, mozzarella, busuioc verde, crutoane
                 english: tomato, mozzarella, green basil, croutons
-              price: 17
-              quantity: 290ml
+              price: 24
+              quantity: 250ml
             - name:
                 romanian: Supa de linte
                 english: Lentil soup
               description:
                 romanian: linte rosii, lamaie, menta, chimen, crutoane de lipie
                 english: red lentils, lemon, mint, cumin, pita croutons
-              price: 17
-              quantity: 290ml
+              price: 24
+              quantity: 250ml
             - name:
-                romanian: Supa de pui cu galuste
-                english: Chicken soup with semolina dumplings
+                romanian: Supa de porumb
+                english: Corn soup
               description:
-                romanian: pui, legume, patrunjel, galuste (gris, ou)
-                english: chicken, vegetables, parsley, dumplings (semolina, egg)
-              price: 17
-              quantity: 290ml
+                romanian: porumb, smantana, crutoane
+                english: corn, sour cream, croutons
+              price: 25
+              quantity: 250ml
     - name:
-        romanian: Paste
-        english: Pasta
+        romanian: Paste proaspete
+        english: Pasta fresca
       subsections:
         - dishes:
             - name:
                 romanian: Tagliatelle cu rossi cherry, dovlecei si busuioc
                 english: Cherry tomato, zucchini and basil tagilatelle
-              price: 27
-              quantity: 270g
+              price: 33
+              quantity: 300g
             - name:
                 romanian: Tagliatelle cu patru tipuri de branza
                 english: Tagliatelle Quattro formaggi
-              price: 34
-              quantity: 270g
+              price: 39
+              quantity: 300g
             - name:
-                romanian: Tagliatelle carbonara cu piept de pui afumat
-                english: Smoked chicken breast tagliatelle carbonara
+                romanian: Spaghetti aglio, olio e peperoncio
+                english: Spaghetti aglio, olio e peperoncio
               price: 31
               quantity: 270g
     - name:
@@ -323,138 +348,103 @@ menu:
       subsections:
         - dishes:
             - name:
-                romanian: Dorada sau biban de mare
-                english: Daurade royale or Sea bass
-              price: 45
+                romanian: File de biban de mare la gratar
+                english: Grilled sea bass fillet
+              price: 58
+              quantity: 200g
+            - name:
+                romanian: Samke harra - Peste picant
+                english: Samke harra - Spicy fish
+              description:
+                romanian: file de somon sau de biban, sos picant, legume, coriandru verde
+                english: salmon or sea bass fillet, spicy sauce, vegetables, green coriander
+              price: 48
               quantity: 300g
             - name:
-                romanian: File de somon la gratar
-                english: Grilled salmon fillet
-              price: 45
-              quantity: 250g
-            - name:
-                romanian: Creveti
-                english: Shrimps
+                romanian: Creveti Black Tiger
+                english: Black Tiger Shrimps
               description:
-                romanian: creveti marinati in sos dulce-acrisor, cartofi steakhouse
-                english: grilled sweet-and-sour-sauce-marinated shrimps, steakhouse potatoes
-              price: 45
-              quantity: 350g
-    - name:
-        romanian: Burger
-        english: Burger
-      subsections:
-        - dishes:
-            - name:
-                romanian: Burger by CulinArt
-                english: Burger by CulinArt
-              description:
-                romanian: carne de vita Black Angus, chifla brioche, cartofi steakhouse, sos tartar, salata
-                english: Black Angus beef, brioche bun, steakhouse potatoes, tartar sauce, salad
-              price: 39
-              quantity: 470g
-            - name:
-                romanian: Blue cheese burger by CulinArt
-                english: Blue cheese burger by CulinArt
-              description:
-                romanian: branza cu mucegai, chifla brioche, cartofi steakhouse, sos tartar, salata
-                english: blue cheese, brioche bun, steakhouse potatoes, tartar sauce, salad
-              price: 42
-              quantity: 480g
-            - name:
-                romanian: Burger vegetarian
-                english: Vegetarian burger
-              description:
-                romanian: falafel, ciuperci, chifla brioche, cartofi steakhouse, sos tartar, salata
-                english: falafel, mushrooms, brioche bun, steakhouse potatoes, tartar sauce, salad
-              price: 24
-              quantity: 350g
+                romanian: creveti Black Tiger la gratar cu sos cocktail
+                english: grilled Black Tiger Shrimps with cocktail sauce
+              price: 64
+              quantity: 200g
     - name:
         romanian: Gratar
         english: Grill
       subsections:
         - dishes:
             - name:
-                romanian: Piept de pui la gratar
-                english: Grilled chicken breast
-              price: 27
-              quantity: 220g
+                romanian: Aripioare de pui
+                english: Chicken wings
+              description:
+                romanian: aripioare de pui, cartofi prajiti, sos usturoi, salata de varza cu maioneza
+                english: chicken wings, fries, garlic sauce, cabbage and mayonnaise salad
+              price: 39
+              quantity: 300g
             - name:
-                romanian: Muschi de vita la gratar
-                english: Grilled beef fillet
-              price: 80
-              quantity: 245g
+                romanian: Mix grill
+                english: Mixed grill
+              description:
+                romanian: frigaruie de vita, frigaruie de pui, kafta, cartofi prajiti, sos de usturoi, rosie si ceapa coapte
+                english: beef skewer, chicken skewer, kafta, fries, garlic sauce, baked tomato, baked onion
+              price: 62
+              quantity: 400g
+            - name:
+                romanian: Burger vegetarian
+                english: Vegetarian burger
+              description:
+                romanian: falafel, castraveti murati, rosie, salata iceberg, sos de susan, cartofi prajiti
+                english: falafel, pickled cucumber, tomato, iceberg lettuce, tahini, fries
+              price: 36
+              quantity: 500g
         - name:
-            romanian: Specialitati arabesti
-            english: Arab specialties
+            romanian: Specialitati orientale
+            english: Middle Eastern specialties
           dishes:
             - name:
-                romanian: Piept de pui la gratar
-                english: Grilled chicken breast
-              price: 27
-              quantity: 220g
-            - name:
-                romanian: Muschi de vita la gratar
-                english: Grilled beef fillet
-              price: 80
-              quantity: 245g
-            - name:
-                romanian: Kebab
-                english: Kebab
-              price: 36
-              quantity: 250g
-            - name:
-                romanian: Kafta
-                english: Kafta
-              description:
-                romanian: frigarui din carne tocata de berbec si vita, ceapa, patrunjel, condimente
-                english: ram and beef meatball skewers, onion, parsley, spices
-              price: 38
-              quantity: 200g
+                romanian: Cotlete de berbecut
+                english: Ram chops
+              price: 52
+              quantity: 350g
             - name:
                 romanian: Shish taouk
                 english: Shish taouk
               description:
                 romanian: piept de pui, iaurt, condimente, suc de lamaie
                 english: chicken breast, yogurt, spices, lemon juice
-              price: 34
+              price: 36
+              quantity: 300g
+            - name:
+                romanian: Frigarui de vita
+                english: Beef skewers
+              description:
+                romanian: muschi de vita, cartofi prajiti, rosie, ceapa, lipie
+                english: beef tenderloin, fries, tomato, onion, pita bread
+              price: 52
               quantity: 200g
             - name:
-                romanian: Shish kebab
-                english: Shish kebab
+                romanian: Kafta de vita si berbec
+                english: Beef and mutton kafta
               description:
-                romanian: carne de vita sau de oaie, condimente, suc de lamaie
-                english: beef or mutton, spices, lemon juice
-              price: 42
-              quantity: 200g
+                romanian: frigarui din carne tocata de berbec si vita, ceapa, patrunjel, condimente
+                english: ram and beef meatball skewers, onion, parsley, spices
+              price: 44
+              quantity: 300g
             - name:
-                romanian: Shawarma de pui
-                english: Chicken shawarma
+                romanian: Adana kebab
+                english: Adana kebap
+              escription:
+                romanian: carne tocata picanta de vita si berbecut, bulgur, ceapa, rosie, ardei iute
+                english: spicy minced beef and lamb, bulgur, onion, tomato, hot pepper
+              price: 49
+              quantity: 300g
+            - name:
+                romanian: Princess kebab de pui si miel
+                english: Princess chicken and lamb kebap
               description:
-                romanian: piept de pui, cartofi prajiti, castraveti murati, pasta de usturoi
-                english: chicken breast, fries, pickled cucumbers, garlic paste
-              price: 27
-              quantity: 350g
-            - name:
-                romanian: Shawarma de vita
-                english: Beef shawarma
-              description:
-                romanian: carne de vita, ceapa, ardei gras, cartofi prajiti, castraveti murati, pasta de susan
-                english: beef, onion, bell pepper, fries, pickled cucumbers, sesame paste
-              price: 34
-              quantity: 350g
-            - name:
-                romanian: Mix grill
-                english: Mixed grill
-              description:
-                romanian: kebab, frigaruie de vita, frigaruie de pui
-                english: kebab, beef skewer, chicken skewer
-              price: 48
-              quantity: 400g
-            - name:
-                romanian: Cotlete de berbecut
-                english: Ram chops
-              price: 42
+                romanian: carne tocata de pui si miel, cascaval, cartofi prajiti, sos usturoi
+                english: minced chicken and lamb, cheese, fries, garlic sauce
+              price: 47
               quantity: 300g
     - name:
         romanian: Fel principal
@@ -462,109 +452,164 @@ menu:
       subsections:
         - dishes:
             - name:
-                romanian: Snitzel din piept de pui cu cartofi steakhouse
-                english: Chicken breast schnitzel with steakhouse potatoes
-              price: 33
-              quantity: 360g
+                romanian: Pui crocant
+                english: Crispy chicken
+              price: 36
+              quantity: 250g
             - name:
-                romanian: Pui Shanghai cu cartofi prajiti si sos dulce-acrisor
-                english: Shanghai chicken with French fries and sweet-and-sour sauce
-              price: 32
-              quantity: 350g
-        - name:
-            romanian: Specialitati arabesti
-            english: Arab specialties
-          dishes:
+                romanian: Muschi de vita la gratar
+                english: Grilled beef fillet
+              price: 85
+              quantity: 245g
             - name:
-                romanian: Maklubi de pui
-                english: Chicken maklouba
+                romanian: Surf and Turf cu sparanghel
+                english: Surf and Turf with asparagus
               description:
-                romanian: orez, vinete, pui, ulei de masline, condimente, migdale/caju/alune
-                english: rice, eggplant, chicken, olive oil, spices, almonds/cashew/hazelnuts
-              price: 38
-              quantity: 300g
+                romanian: muschi de vita, creveti, unt, patrunjel, sparanghel
+                english: beef tenderloin, shrimps, butter, parsley, asparagus
+              price: 155
+              quantity: 400g
             - name:
-                romanian: Maklubi de vita
-                english: Beef maklouba
+                romanian: Tomahawk pe plita incinsa cu legume la gratar
+                english: Tomahawk on hot plate with grilled vegetables
               description:
-                romanian: orez, vinete, carne de vita, suc de lamaie, ulei de masline, condimente, migdale/caju/alune
-                english: rice, eggplant, beef, lemon juice, olive oil, spices, almonds/cashew/hazelnuts
+                romanian: antricot de vita, rosii cherry, ciuperci, ceapa, ardei iute, dovlecei
+                english: beef steak, cherry tomatoes, mushrooms, onion, hot pepper, zucchini
+              price: 235
+              quantity: 1300g
+            - name:
+                romanian: Pui (jumatate) la jar
+                english: Grilled chicken (half)
+              description:
+                romanian: cu sos de usturoi, mamaliguta cu parmezan si rosii uscate
+                english: with garlic sauce, sun-dried tomatoes and polenta with parmesan
+              price: 59
+              quantity: 1100g
+            - name:
+                romanian: Cheeseburger de vita
+                english: Beef cheeseburger
+              description:
+                romanian: muschi de vita, sos de ciuperci, branza, rosie, salata iceberg, castravete murat, cartofi prajiti
+                english: beef tenderloin patty, mushroom sauce, cheese, tomato, iceberg lettuce, pickled cucumber, fries
+              price: 48
+              quantity: 500g
+            - name:
+                romanian: Burger de pui
+                english: Chicken burger
+              description:
+                romanian: piept de pui, maioneza de casa, salata iceberg, rosie, castravete murat, ketchup dulce, cartofi prajiti, salata de varza cu maioneza
+                english: chicken breast, homemade mayonnaise, iceberg lettuce, tomato, pickled cucumber, mild ketchup, fries, cabbage and mayonnaise salad
               price: 44
-              quantity: 300g
+              quantity: 500g
+        - name:
+            romanian: Specialitati orientale
+            english: Middle Eastern specialties
+          dishes:
             - name:
                 romanian: Mandi de pui
                 english: Chicken mandi
               description:
-                romanian: pui, orez, condimente, sos picant
-                english: chicken, rice, spices, spicy sauce
-              price: 34
-              quantity: 250g
+                romanian: piept de pui, orez afumat, ciuperci, ardei, ceapa, migdale, stafide, muguri de pin, iaurt
+                english: chicken breast, smoked rice, mushrooms, bell pepper, onion, almonds, raisins, pine nuts, yoghurt
+              price: 39
+              quantity: 300g
             - name:
                 romanian: Mandi de vita
                 english: Beef mandi
               description:
                 romanian: orez, carne de vita, condimente, sos picant
                 english: rice, beef, spices, spicy sauce
-              price:
+              price: 46
               quantity: 250g
             - name:
-                romanian: Samke harra
-                english: Samke harra
+                romanian: Maklubi de vita
+                english: Beef maklouba
               description:
-                romanian: peste (dorada/biban/somon) condimentat, sos picant cu nuci, coriandru, usturoi
-                english: spicy fish (daurade/perch/salmon), spicy sauce with walnut, coriander, garlic
-              price: 42
-              quantity: 250g
+                romanian: orez, vinete, carne de vita, suc de lamaie, ulei de masline, condimente, migdale/caju/alune
+                english: rice, eggplant, beef, lemon juice, olive oil, spices, almonds/cashew/hazelnuts
+              price: 48
+              quantity: 300g
+            - name:
+                romanian: Arayes cu carne de vita
+                english: Beef Arayes
+              description:
+                romanian: lipie umpluta cu carne tocata de vita, ceapa, patrunjel
+                english: Lebanese pita stuffed with minced beef, onion and parsley
+              price: 33
+              quantity: 200g
+            - name:
+                romanian: Shawarma de pui
+                english: Chicken shawarma
+              description:
+                romanian: piept de pui, cartofi prajiti, castraveti murati, pasta de usturoi
+                english: chicken breast, fries, pickled cucumbers, garlic paste
+              price: 37
+              quantity: 350g
+            - name:
+                romanian: Shawarma de vita
+                english: Beef shawarma
+              description:
+                romanian: carne de vita, ceapa, ardei gras, cartofi prajiti, castraveti murati, pasta de susan
+                english: beef, onion, bell pepper, fries, pickled cucumbers, sesame paste
+              price: 49
+              quantity: 350g
     - name:
         romanian: Sosuri
         english: Sauces
       subsections:
         - dishes:
             - name:
-                romanian: Reci
-                english: Cold
-              description:
-                romanian: Tartar/Maioneza/Tahini/Pasta de ardei iute/Pasta de usturoi/Sos de soia/ Sos de chilli dulce
-                english: Tartar/Mayonnaise/Hot chilli paste/Garlic paste/Soy sauce/Sweet chilli sauce
-              price: 8
-              quantity: 70g
-            - name:
-                romanian: Calde
-                english: Warm
-              description:
-                romanian: Sos de piper verde/Sos olandez/Sos brun
-                english: Green pepper sauce/Hollandaise/Brown sauce
-              price: 8
-              quantity: 70g
+                romanian: Ketchup/Maioneza/Tahini - pasta de susan/Pasta de usturoi/Sos de rodii/Tabasco
+                english: Ketchup/Mayonnaise/Tahini - sesame paste/Garlic paste/Pomegranate sauce/Tabasco
+              price: 3
+              quantity: 30g
     - name:
         romanian: Garnituri
         english: Sides
       subsections:
         - dishes:
             - name:
-                romanian: Cartofi steakhouse
-                english: Steakhouse potatoes
-              price: 9
+                romanian: Bulgur
+                english: Bulgur
+              price: 15
               quantity: 200g
             - name:
-                romanian: Cartofi cheesy - cartofi pai cu parmezan, usturoi si patrunjel
-                english: Cheesy fries - French fries with parmesan, garlic and fresh parsley
+                romanian: Orez cu fidea
+                english: Rice with vermicelli
+              price: 15
+              quantity: 200g
+            - name:
+                romanian: Orez galben cu sofran
+                english: Saffron rice
+              price: 16
+              quantity: 200g
+            - name:
+                romanian: Orez cu migdale si stafide
+                english: Almond and raisin rice
+              price: 19
+              quantity: 200g
+            - name:
+                romanian: Cartofi prajiti
+                english: French fries
               price: 12
-              quantity: 220g
-            - name:
-                romanian: Piure de cartofi
-                english: Creamy mashed potatoes
-              price: 10
               quantity: 200g
             - name:
-                romanian: Orez cu curry
-                english: Curry rice
-              price: 11
+                romanian: Cartofi cu menta si usturoi
+                english: French fries with mint and garlic
+              price: 19
               quantity: 200g
             - name:
-                romanian: Orez libanez
-                english: Lebanese rice
-              price: 12
+                romanian: Cartofi cu coriandru
+                english: Potatoes with coriander
+              price: 19
+              quantity: 200g
+            - name:
+                romanian: Legume la gratar
+                english: Grilled vegetables
+              description:
+                romanian: vinete, dovlecei, ciuperci, ceapa, rosii, ardei
+                english: aubergines, zucchini, mushrooms, onion, tomatoes, bell peppers
+              price: 23
               quantity: 200g
     - name:
         romanian: Desert
@@ -572,49 +617,62 @@ menu:
       subsections:
         - dishes:
             - name:
+                romanian: Tarta cu mere si inghetata de vanilie
+                english: Apple pie with vanilla ice cream
+              price: 26
+              quantity: 200g
+            - name:
+                romanian: Tort de ciocolata
+                english: Chocolate cake
+              price: 29
+              quantity: 200g
+            - name:
                 romanian: Cupa de inghetata
                 english: Ice cream scoop
-              price: 5
-              quantity: 140g
+              price: 7
+              quantity: 40g
             - name:
-                romanian: Tort cu caramel si biscuiti
-                english: Caramel and biscuit cake
-              price: 21
-              quantity: 200g
-            - name:
-                romanian: Tort cu ciocolata
-                english: Chocolate cake
-              price: 23
-              quantity: 200g
-            - name:
-                romanian: Tarta cu mere
-                english: Apple pie
-              price: 19
-              quantity: 200g
-            - name:
-                romanian: Tarta cu capsune
-                english: Strawberry cheesecake
-              price: 19
-              quantity: 200g
-            - name:
-                romanian: Cheesecake
-                english: Cheesecake
-              price: 19
+                romanian: Tort Zahra
+                english: Zahra cake
+              price: 30
               quantity: 200g
         - name:
-            romanian: Specialitati arabesti
-            english: Arab specialties
+            romanian: Specialitati orientale
+            english: Middle Eastern specialties
           dishes:
+            - name:
+                romanian: Ashtalleya
+                english: Ashtalieh
+              price: 24
+              quantity: 200g
+            - name:
+                romanian: Halva de branzeturi
+                english: Cheeses halva
+              description:
+                romanian: specialitate libaneza din branzeturi
+                english: Lebanese cheese specialty
+              price: 24
+              quantity: 150g
+            - name:
+                romanian: Cataif cu nuca
+                english: Walnut kataifi
+              price: 27
+              quantity: 200g
             - name:
                 romanian: Baclava
                 english: Baklava
-              price: 21
-              quantity: 150g
-            - name:
-                romanian: Kunafa
-                english: Kunafa
-              price: 22
+              description:
+                romanian: foaie de placinta, nuci pisate, miere
+                english: phyllo, chopped nuts, honey
+              price: 25
               quantity: 200g
+            - name:
+                romanian: Warbat, 4 buc.
+                english: Warbat, 4 pcs.
+              description:
+                romanian: foietaj, crema de lapte, apa de trandafir, fistic
+                english: phyllo pastry, milk cream pudding, rose water, pistachio
+              price: 35
     - name:
         romanian: Narghilea
         english: Shisha
