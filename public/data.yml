@@ -293,6 +293,11 @@ menu:
                 english: green olives, egg, panko
               price: 28
               quantity: 150g
+            - name:
+                romanian: Lipie
+                english: Pita
+              price: 2
+
     - name:
         romanian: Supe
         english: Soups
