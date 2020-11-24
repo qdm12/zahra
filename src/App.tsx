@@ -16,6 +16,7 @@ import PixelBaseCode from "components/PixelBaseCode";
 import ContactUs from "components/ContactUs";
 import colors from "colors";
 import GA from "components/GA";
+import HorizontalIcons from "components/HorizontalIcons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     width: "100%",
     justifyContent: "center",
-    paddingTop: 30,
+    paddingTop: 60,
     fontSize: "20em",
     marginBottom: theme.spacing(6),
     transition: "all 1s ease",
@@ -100,6 +101,7 @@ function App(): JSX.Element {
         <GA />
         <PixelBaseCode />
         <WelcomeScreen />
+        <HorizontalIcons />
         <IconZahraGreen className={classes.icon} />
         <FoodMenu menu={menu} className={classes.menu} />
         <Booking
