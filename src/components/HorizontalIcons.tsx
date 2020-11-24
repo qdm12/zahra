@@ -7,6 +7,7 @@ import clsx from "clsx";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    zIndex: 1,
     position: "fixed",
     top: 0,
     width: "100%",
@@ -24,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
     color: colors.menuText,
     margin: theme.spacing(1, 3),
     fontSize: 45,
+    cursor: "pointer",
     [theme.breakpoints.down("md")]: {
       margin: theme.spacing(0.5, 1.5),
       fontSize: 35,
